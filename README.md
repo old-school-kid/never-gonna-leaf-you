@@ -54,7 +54,6 @@ All images in the dataset are released under the Creative Commons Attribution-Sh
 
 -   [ ] Create a license: Surya
 -   [ ] Create a CONTRIBUTING: Surya
--   [ ] Add 16bit model: Surya
--   [ ] Add optimized and tflite model: Surya
--   [ ] Add regularized models: Surya
+-   [x] Add 8bit model: Surya
+-   [x] Add optimized and tflite model: Surya
 -   [ ] Add app: Aditi
