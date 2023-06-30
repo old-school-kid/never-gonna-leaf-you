@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scanbg">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leaf"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#68FFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="UPLOAD THE IMAGE"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="TAKE A PHOTO"
+        app:backgroundTint="#43A047"
+        app:layout_constraintBottom_toTopOf="@id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@id/button3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="UPLOAD FROM GALLERY"
+        app:backgroundTint="#43A047"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@id/button2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PREDICT"
+        app:backgroundTint="#43A047"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
