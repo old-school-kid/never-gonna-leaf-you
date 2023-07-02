@@ -56,7 +56,8 @@ First we use a contrastive supervised learning pretraining to train a CNN encode
 
 We plug this tflite model to a simple to use app that can predict leaf disease instantaneously. One can capture a photo directly and run inference or can upload an image from gallery and run inference on it. You can find the apk of the app in releases.
 
-[![App UI](leaf%20disease%20app.jpg)](https://github.com/old-school-kid/never-gonna-leaf-you/blob/main/leaf%20disease%20app.jpg)
+### App UI
+<p align="center"><a href="https://github.com/old-school-kid/never-gonna-leaf-you/blob/main/leaf%20disease%20app.jpg"><img src="leaf%20disease%20app.jpg" alt="App UI" width="25%" /></a></p>
 
 ## To-Do
 
