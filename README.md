@@ -1,3 +1,6 @@
+# Never Gonna Leaf You
+An app powered by a very small deep learning model (0.5mb) trained using contrastive learning and sharpness aware minimization on Plant Village Dataset to detect plant leaf disease.
+
 ## Table of Contents
 
 -   [Introduction](#Intro-to-Project)
