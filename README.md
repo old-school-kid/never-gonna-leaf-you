@@ -52,8 +52,9 @@ All images in the dataset are released under the Creative Commons Attribution-Sh
 
 ## To-Do
 
--   [ ] Create a license: Surya
--   [ ] Create a CONTRIBUTING: Surya
--   [x] Add 8bit model: Surya
--   [x] Add optimized and tflite model: Surya
--   [ ] Add app: Aditi
+-   [ ] Create a license
+-   [x] Add 8bit model
+-   [x] Add optimized and tflite model
+-   [ ] [Add a model optimized with sharpness aware minimization](https://arxiv.org/abs/2010.01412)
+-   [ ] [Add a generalized ODIN version of model](https://arxiv.org/abs/2002.11297)
+-   [x] Add app
