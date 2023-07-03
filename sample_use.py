@@ -21,4 +21,7 @@ interpreter = tf.lite.Interpreter(model_path=MODEL_PATH)
 classify_lite = interpreter.get_signature_runner('serving_default')
 
 predictions_lite = classify_lite(input_2=img)['output_layer']
-print(f"Image belongs to {CATEGORIES[np.argmax(predictions_lite)]} with {round(np.max(predictions_lite)*100.0, 2)}% confidence")
+if round(np.max(predictions_lite)*100.0, 2) <95.0:
+    print(f"Image is Out of Domain and no conclusive result can be provided")
+else:
+    print(f"Image belongs to {CATEGORIES[np.argmax(predictions_lite)]} with {round(np.max(predictions_lite)*100.0, 2)}% confidence")
